@@ -35,6 +35,7 @@ public class CalculatorTest {
     void divideByZero() {
         Assertions.assertThrows(ArithmeticException.class,
                 () -> calculator.divide(10, 0));
+
     }
 
 }
